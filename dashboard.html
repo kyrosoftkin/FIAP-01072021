@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="José Anderson Arruda Costa">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Dashboard · Health Track v0.1</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/dashboard.css'>
+</head>
+
+<body>
+
+    <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+        <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">Health Track</a>
+        <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-nav">
+            <div class="nav-item text-nowrap">
+                <a class="nav-link px-3" href="index.html">Sair</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+                <div class="position-sticky pt-3">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="dashboard.html">
+                                <span data-feather="home"></span>
+                                Dashboard
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="perfil.html">
+                                <span data-feather="file"></span>
+                                Perfil
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <div
+                    class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <h1 class="h2">Dashboard</h1>
+                    <div class="btn-toolbar mb-2 mb-md-0">
+                        <div class="btn-group me-2">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Adicionar registro</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Remover registro</button>
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Log de registros</h2>
+                <div class="table-responsive">
+                    <table class="table table-striped table-sm">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Peso</th>
+                                <th scope="col">IMC</th>
+                                <th scope="col">Classificação</th>
+                                <th scope="col">Data</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>15</td>
+                                <td>80Kg</td>
+                                <td>19,5</td>
+                                <td>NORMAL</td>
+                                <td>10/06/2021</td>
+                            </tr>
+                            <tr>
+                                <td>14</td>
+                                <td>76Kg</td>
+                                <td>18,4</td>
+                                <td>MAGREZA</td>
+                                <td>26/05/2021</td>
+                            </tr>
+                            <tr>
+                                <td>13</td>
+                                <td>78Kg</td>
+                                <td>18,9</td>
+                                <td>NORMAL</td>
+                                <td>18/05/2021</td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td>82Kg</td>
+                                <td>19,8</td>
+                                <td>NORMAL</td>
+                                <td>10/05/2021</td>
+                            </tr>
+                            <tr>
+                                <td>11</td>
+                                <td>82Kg</td>
+                                <td>19,8</td>
+                                <td>NORMAL</td>
+                                <td>09/05/2021</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>83Kg</td>
+                                <td>19,9</td>
+                                <td>NORMAL</td>
+                                <td>01/05/2021</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>87Kg</td>
+                                <td>20,6</td>
+                                <td>NORMAL</td>
+                                <td>22/04/2021</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>95Kg</td>
+                                <td>23,0</td>
+                                <td>NORMAL</td>
+                                <td>02/04/2021</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>96Kg</td>
+                                <td>23,2</td>
+                                <td>NORMAL</td>
+                                <td>27/03/2021</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>98Kg</td>
+                                <td>23,9</td>
+                                <td>NORMAL</td>
+                                <td>20/03/2021</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>105Kg</td>
+                                <td>25,2</td>
+                                <td>SOBREPESO</td>
+                                <td>03/03/2021</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>110Kg</td>
+                                <td>26,6</td>
+                                <td>SOBREPESO</td>
+                                <td>15/02/2021</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>115Kg</td>
+                                <td>29,1</td>
+                                <td>SOBREPESO</td>
+                                <td>01/02/2021</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>122Kg</td>
+                                <td>30,7</td>
+                                <td>OBESIDADE</td>
+                                <td>10/01/2021</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>120Kg</td>
+                                <td>30,3</td>
+                                <td>OBESIDADE</td>
+                                <td>01/01/2021</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
